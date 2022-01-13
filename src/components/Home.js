@@ -6,6 +6,7 @@ function Home(props) {
       <h1 style={{ color: props.color }}>
         {props.username} is a Web Developer from {props.city}
       </h1>
+      <p>{props.bio}</p>
     </div>
   );
 }
